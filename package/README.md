@@ -56,13 +56,3 @@ npm notice integrity:     sha512-11HXqdIBvewZP[...]nSRa9EkPBgepg==
 npm notice total files:   3                                       
 npm notice 
 ```
-
-pnpm:
-
-```console
-$ COREPACK_ENABLE_STRICT=0 corepack pnpm@8 pack
-$ tar -zxvf *.tgz | sort
-package/README.md
-package/index.d.ts
-package/package.json
-```
